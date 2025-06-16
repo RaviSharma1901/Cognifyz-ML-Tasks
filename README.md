@@ -15,13 +15,15 @@ __Selected Tasks__
   - Data Preprocessing & Feature Engineering
 
 - Repository Structure      
-         '' Cognifyz-ML-Tasks/
+         ''
+          Cognifyz-ML-Tasks/
           │── Task_1_Predict_Restaurant_Ratings/
           │── Task_2_Restaurant_Recommendation/
           │── Task_3_Cuisine_Classification/
           │── Task_4_Location_Analysis/
           │── README.md
-          │── requirements.txt   ''
+          │── requirements.txt
+          ''
 __Getting Started__
 Clone this repository:
 
