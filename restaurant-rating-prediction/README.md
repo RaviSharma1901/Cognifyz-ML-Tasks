@@ -1,5 +1,5 @@
 ### Restaurant Rating Prediction
-- This project aims to predict restaurant ratings using machine learning techniques based on features such as location, cuisine, cost, delivery options, and more. It showcases end-to-end model development with a focus on interpretability, feature engineering, and stakeholder-ready outputs.
+- This project aims to predict restaurant ratings using machine learning techniques based on features such as Votes, cuisine, Average cost for two, delivery options, and more. It showcases end-to-end model development with a focus on interpretability, feature engineering, and stakeholder-ready outputs.
 
 __Project Highlights__
         - Cleaned and encoded diverse features including cuisine types, city frequencies, and service flags.
@@ -8,16 +8,13 @@ __Project Highlights__
         - Visualized feature importance and evaluated model performance using R² and RMSE.
         - Built clear visual and textual summaries for professional presentation.
 
-Tech Stack
-Language: Python
+__Tech Stack__
+- Language: Python
+- Libraries: pandas, NumPy, matplotlib, seaborn, scikit-learn
+- Models: Linear Regression, Decision Tree Regressor
+- Tools: Jupyter Notebook, Git, GitHub
 
-Libraries: pandas, NumPy, matplotlib, seaborn, scikit-learn
-
-Models: Linear Regression, Decision Tree Regressor
-
-Tools: Jupyter Notebook, Git, GitHub
-
-Folder Structure
+__Folder Structure__        
 restaurant-rating-prediction/   
 │── data/    
 │   └── dataset.csv    
@@ -25,14 +22,15 @@ restaurant-rating-prediction/
 │   └── rating_prediction.ipynb           
 │── models/             
 │   └── decision_tree_model.pkl         
-│── README.md          
+│── requirements.txt          
+│── README.md   
 
-__How to Run__
+__How to Run__   
    - Clone the repo: 
         
-    git clone https://github.com/RaviSharma1901/Cognifyz-ML-Tasks/restaurant-rating-prediction.git
+    git clone https://github.com/RaviSharma1901/Cognifyz-ML-Tasks/main/restaurant-rating-prediction.git
 
-   - install dependencies: 
+__install dependencies:__    
 
     pip install -r requirements.txt
 
