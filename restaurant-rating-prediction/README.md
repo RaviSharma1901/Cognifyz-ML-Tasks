@@ -60,7 +60,6 @@ Add more advanced models (e.g. XGBoost, Random Forest)
    - Boost Platform Trust: Highlighting high-rated, data-driven listings can improve user satisfaction and retention.
 
 - __Links__
-
-* **Email**: [ravisharma1901@gmail.com](mailto:ravisharma1901@gmail.com)       
-* [LinkedIn](https://www.linkedin.com/in/ravi-sharma-ab8ba17a/)      
-* [GitHub Profile](https://github.com/RaviSharma1901)      
+  * **Email**: [ravisharma1901@gmail.com](mailto:ravisharma1901@gmail.com)       
+  * [LinkedIn](https://www.linkedin.com/in/ravi-sharma-ab8ba17a/)      
+  * [GitHub Profile](https://github.com/RaviSharma1901)      
