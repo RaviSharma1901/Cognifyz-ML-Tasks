@@ -2,17 +2,17 @@
 - This project aims to predict restaurant ratings using machine learning techniques based on features such as Votes, cuisine, Average cost for two, delivery options, and more. It showcases end-to-end model development with a focus on interpretability, feature engineering, and stakeholder-ready outputs.
 
 - __Project Highlights__
-        - Cleaned and encoded diverse features including cuisine types, city frequencies, and service flags.
-        - Performed detailed EDA and feature scaling to prep data for modeling.
-        - Trained and compared models (Linear Regression and Decision Tree Regressor).
-        - Visualized feature importance and evaluated model performance using R² and RMSE.
-        - Built clear visual and textual summaries for professional presentation.
+  - Cleaned and encoded diverse features including cuisine types, city frequencies, and service flags.
+  - Performed detailed EDA and feature scaling to prep data for modeling.
+  - Trained and compared models (Linear Regression and Decision Tree Regressor).
+  - Visualized feature importance and evaluated model performance using R² and RMSE.
+  - Built clear visual and textual summaries for professional presentation.
 
 - __Key Outcomes__
-        - Improved Predictive Accuracy: Achieved reliable restaurant rating predictions using Linear Regression and Decision Tree models.
-        - Feature Impact Uncovered: Identified top predictors of rating—such as Votes, City_freq, and service availability—through model interpretation.
-        - Scalable Modeling Pipeline: Designed a reusable and modular ML workflow from preprocessing to model evaluation.
-        - Stakeholder-Ready Insights: Delivered interpretable results with visualizations and concise summaries for business decision-making.
+  - Improved Predictive Accuracy: Achieved reliable restaurant rating predictions using Linear Regression and Decision Tree models.
+    - Feature Impact Uncovered: Identified top predictors of rating—such as Votes, City_freq, and service availability—through model interpretation.
+    - Scalable Modeling Pipeline: Designed a reusable and modular ML workflow from preprocessing to model evaluation.
+    - Stakeholder-Ready Insights: Delivered interpretable results with visualizations and concise summaries for business decision-making.
 
 - __Technology Used__
         - Language: Python
