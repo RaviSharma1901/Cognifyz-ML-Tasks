@@ -28,13 +28,16 @@ restaurant-rating-prediction/
 __How to Run__   
    - Clone the repo: 
         
-    git clone https://github.com/RaviSharma1901/Cognifyz-ML-Tasks/main/restaurant-rating-prediction.git
-
-__install dependencies:__    
+    git clone https://github.com/RaviSharma1901/Cognifyz-ML-Tasks
+    
+    cd Cognifyz-ML-Tasks/restaurant-rating-prediction
+   - install dependencies:__    
 
     pip install -r requirements.txt
 
-    - Launch Jupyter Notebook and run rating_prediction.ipynb.
+   - Launch Jupyter Notebook
+
+     jupyter notebook rating_prediction.ipynb
 
 __Future Enhancements__
 Add more advanced models (e.g. XGBoost, Random Forest)
