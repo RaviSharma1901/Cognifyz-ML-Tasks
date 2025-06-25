@@ -51,7 +51,7 @@ restaurant-rating-prediction/
      jupyter notebook rating_prediction.ipynb
 
 - __Future Enhancements__
-Add more advanced models (e.g. XGBoost, Random Forest)
+  - Add more advanced models (e.g. XGBoost, Random Forest)
 
 - __Business Impact__
    - Improve Customer Experience: By predicting ratings, businesses can proactively address service gaps.
