@@ -10,15 +10,15 @@
 
 - __Key Outcomes__
   - Improved Predictive Accuracy: Achieved reliable restaurant rating predictions using Linear Regression and Decision Tree models.
-    - Feature Impact Uncovered: Identified top predictors of rating—such as Votes, City_freq, and service availability—through model interpretation.
-    - Scalable Modeling Pipeline: Designed a reusable and modular ML workflow from preprocessing to model evaluation.
-    - Stakeholder-Ready Insights: Delivered interpretable results with visualizations and concise summaries for business decision-making.
+  - Feature Impact Uncovered: Identified top predictors of rating—such as Votes, City_freq, and service availability—through model interpretation.
+  - Scalable Modeling Pipeline: Designed a reusable and modular ML workflow from preprocessing to model evaluation.
+  - Stakeholder-Ready Insights: Delivered interpretable results with visualizations and concise summaries for business decision-making.
 
 - __Technology Used__
-        - Language: Python
-        - Libraries: pandas, NumPy, matplotlib, seaborn, scikit-learn
-        - Models: Linear Regression, Decision Tree Regressor
-        - Tools: Jupyter Notebook, Git, GitHub
+  - Language: Python
+  - Libraries: pandas, NumPy, matplotlib, seaborn, scikit-learn
+  - Models: Linear Regression, Decision Tree Regressor
+  - Tools: Jupyter Notebook, Git, GitHub
 
 - __Folder Structure__        
 restaurant-rating-prediction/   
