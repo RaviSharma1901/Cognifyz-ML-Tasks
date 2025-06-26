@@ -9,15 +9,14 @@ __Selected Tasks__
     - Location Analysis – Analyze geographical data and trends affecting restaurant performance.
 
 - Technologies Used
-  - Python (pandas, NumPy, matplotlib)
-  - Machine Learning (scikit-learn, XGBoost)
-  - Natural Language Processing (NLTK, regex)
+  - Python (pandas, NumPy, matplotlib, Seaborn)
+  - Machine Learning (scikit-learn)
   - Data Preprocessing & Feature Engineering
 
 - Repository Structure      
          ''
           Cognifyz-ML-Tasks/
-          │── Task_1_Predict_Restaurant_Ratings/
+          │── restaurant-rating-prediction/
           │── Task_2_Restaurant_Recommendation/
           │── Task_3_Cuisine_Classification/
           │── Task_4_Location_Analysis/
