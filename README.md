@@ -25,10 +25,6 @@ This repository contains machine learning projects completed as part of the Cogn
           │── requirements.txt
           ''
 - __Getting Started__
-
-   - Install dependencies:
-
-         pip install -r requirements.txt
         
   - Clone this repository:
 
