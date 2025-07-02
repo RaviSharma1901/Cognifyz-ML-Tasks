@@ -58,11 +58,10 @@
         - Invalid criteria (Martian, ₹50, 5.0)Clear error message
 
 - __Performance Metrics__
-
-- Accuracy: Successfully handles diverse query types
-- Robustness: Zero system errors across test scenarios
-- Scalability: Efficient similarity computation using sparse matrices
-- User Experience: Clear feedback and formatted output
+    - Accuracy: Successfully handles diverse query types
+    - Robustness: Zero system errors across test scenarios
+    - Scalability: Efficient similarity computation using sparse matrices
+    - User Experience: Clear feedback and formatted output
   
 - __Algorithm Details__
 
@@ -90,3 +89,7 @@
 
 - This project is part of the Cognifyz ML Tasks series.
 
+- __Links__
+  * **Email**: [ravisharma1901@gmail.com](mailto:ravisharma1901@gmail.com)       
+  * [LinkedIn](https://www.linkedin.com/in/ravi-sharma-ab8ba17a/)      
+  * [GitHub Profile](https://github.com/RaviSharma1901)   
