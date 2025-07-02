@@ -48,7 +48,7 @@
         pip install pandas numpy scikit-learn scipy
 - __Live Demo__
     - Explore the restaurant recommendation system:
-        - [Launch App](https://cognifyz-ml-tasks-coitglpno426nchjsn8tbk.streamlit.app/)
+        - [Launch App](https://smart-menu-guide.streamlit.app/)
 
 - __Test Cases__
     - Test Scenario 
