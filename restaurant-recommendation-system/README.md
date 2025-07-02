@@ -33,10 +33,19 @@
     - Quality Assurance: Ensures minimum rating requirements
     - Hybrid Approach: Adapts recommendation strategy based on data availability
     - Error Handling: Manages edge cases and invalid inputs
+- 📂 restaurant-recommendation-system/
+
+        ├── Dataset.csv                     # Restaurant dataset used for recommendations
+        ├── app.py                         # Streamlit app code
+        ├── restaurant_recommendation_system.ipynb  # Jupyter notebook for development
+        ├── requirements.txt               # List of required Python packages
+        ├── tfidf_vectorizer.pickle        # Saved TF-IDF vectorizer
+        ├── cost_scaler.pickle             # Saved cost scaler
+        └── README.md                      # Project documentation
 
 - __Requirements__
 
-    pip install pandas numpy scikit-learn scipy
+        pip install pandas numpy scikit-learn scipy
 
 - __Test Cases__
     - Test Scenario 
@@ -54,13 +63,14 @@
 
 - __System Architecture__
 
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Data Loading  │───▶│  Preprocessing   │───▶│ Feature Extract │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                                                        │
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│ Recommendations │◀───│   Similarity     │◀───│ Matrix Building │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
+┌──────────────┐ → ┌───────────────┐ → ┌────────────────┐
+│ Data Loading │ → │ Preprocessing │ → │ Feature Engine │
+└──────────────┘   └───────────────┘   └────────────────┘
+                                   ↓
+┌────────────────────┐ ← ┌─────────────────┐ ← ┌──────────────┐
+│ Final Recommendations│ ← │ Similarity Match │ ← │ Matrix Build │
+└────────────────────┘   └─────────────────┘   └──────────────┘
+
 
 
 - __Algorithm Details__
