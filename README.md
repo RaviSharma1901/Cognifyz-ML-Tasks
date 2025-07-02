@@ -4,7 +4,7 @@ This repository contains machine learning projects completed as part of the Cogn
 - __Selected Tasks__
   - This internship allows participants to work on any 3 out of 4 tasks:
     -  Predict Restaurant Ratings – Build a predictive model to estimate restaurant ratings based on customer feedback and features.
-    - Restaurant Recommendation System – Develop a recommendation engine using collaborative filtering or content-based approaches.
+    - Restaurant Recommendation System – Develop a recommendation engine using content-based filtering approaches.
     - Cuisine Classification – Classify cuisines using NLP techniques applied to restaurant descriptions.
     - Location Analysis – Analyze geographical data and trends affecting restaurant performance.
 
@@ -18,9 +18,9 @@ This repository contains machine learning projects completed as part of the Cogn
          ''
           Cognifyz-ML-Tasks/
           │── restaurant-rating-prediction/
-          │── Task_2_Restaurant_Recommendation/
-          │── Task_3_Cuisine_Classification/
-          │── Task_4_Location_Analysis/
+          │── restaurant-recommendation-system/
+          │── Task_3/
+          │── Task_4/
           │── README.md
           │── requirements.txt
           ''
