@@ -46,6 +46,9 @@
 - __Requirements__
 
         pip install pandas numpy scikit-learn scipy
+- __Live Demo__
+    - Explore the restaurant recommendation system:
+        - [Launch App](https://cognifyz-ml-tasks-ng3xw5targoth25gveiwn5.streamlit.app)
 
 - __Test Cases__
     - Test Scenario 
@@ -60,19 +63,7 @@
 - Robustness: Zero system errors across test scenarios
 - Scalability: Efficient similarity computation using sparse matrices
 - User Experience: Clear feedback and formatted output
-
-- __System Architecture__
-
-┌──────────────┐ → ┌───────────────┐ → ┌────────────────┐
-│ Data Loading │ → │ Preprocessing │ → │ Feature Engine │
-└──────────────┘   └───────────────┘   └────────────────┘
-                                   ↓
-┌────────────────────┐ ← ┌─────────────────┐ ← ┌──────────────┐
-│ Final Recommendations│ ← │ Similarity Match │ ← │ Matrix Build │
-└────────────────────┘   └─────────────────┘   └──────────────┘
-
-
-
+  
 - __Algorithm Details__
 
     1. Data Preprocessing
