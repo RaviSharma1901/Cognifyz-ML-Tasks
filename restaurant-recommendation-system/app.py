@@ -12,7 +12,7 @@ from scipy.sparse import hstack, csr_matrix
 @st.cache_data # Cache the dataset loading function
 # This decorator caches the output of the function to avoid reloading the dataset on every interaction
 def load_data():
-    df = pd.read_csv("RaviSharma1901/Cognifyz-ML-Tasks/restaurant-recommendation-system/Dataset.csv")
+    df = pd.read_csv("Dataset.csv")
     df['Cuisines'] = df['Cuisines'].fillna(df['Cuisines'].mode()[0]).str.lower()
     # Clean restaurant names - remove garbled characters
     df['Restaurant Name'] = df['Restaurant Name'].str.replace(r'[^\w\s&\'-]', '', regex=True)
