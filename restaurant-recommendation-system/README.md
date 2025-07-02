@@ -52,10 +52,10 @@
 
 - __Test Cases__
     - Test Scenario 
-        - Popular cuisine (Japanese, ₹1500, ≥4.5) Content-based similarity Pass
-        - Common cuisine (Mexican, ₹800, ≥4.0)- Content-based similarity✅ Pass
-        - Niche cuisine (Lucknowi, ₹1000, ≥4.0)Direct recommendation✅ Pass
-        - Invalid criteria (Martian, ₹50, 5.0)Clear error message✅ Pass
+        - Popular cuisine (Japanese, ₹1500, ≥4.5) Content-based similarity
+        - Common cuisine (Mexican, ₹800, ≥4.0)- Content-based similarity
+        - Niche cuisine (Lucknowi, ₹1000, ≥4.0)Direct recommendation
+        - Invalid criteria (Martian, ₹50, 5.0)Clear error message
 
 - __Performance Metrics__
 
