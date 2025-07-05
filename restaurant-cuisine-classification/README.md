@@ -1,17 +1,22 @@
-# 🍽️ Restaurant Cuisine Classification using Multi-Label Random Forest
+## 🍽️ Restaurant Cuisine Classification using Multi-Label Random Forest
 
-## 📌 Project Overview
+__Project Overview__
 
 This repository contains a complete machine learning workflow for predicting cuisines offered by restaurants based on structured tabular data. The task is part of **Cognifyz ML Challenge – Task 3**. It explores multi-label classification using ensemble modeling and focuses on preprocessing, feature encoding, outlier handling, and model evaluation using label-specific and aggregate metrics.
 
 ---
 
-## 📁 Repository Structure
+__Repository Structure__
 
-
+    `
+    restaurant-cuisine-classification/ 
+    ├── Dataset.csv # Source data with restaurant attributes 
+    ├── README.md # Project description and guidance 
+    ├── restaurant_cuisine_classification.ipynb
+    `
 ---
 
-## 🔧 Features
+__Features__
 
 - **Multi-label prediction** using `MultiOutputClassifier` with `RandomForestClassifier`
 - Data cleaning and preprocessing:
@@ -27,7 +32,7 @@ This repository contains a complete machine learning workflow for predicting cui
 
 ---
 
-## 📈 Model Highlights
+__Model Highlights__
 
 - **Algorithm Used**: Random Forest (with default hyperparameters)
 - **Number of Labels**: 145 cuisine categories
@@ -37,21 +42,16 @@ This repository contains a complete machine learning workflow for predicting cui
 
 ---
 
-## 📝 Notes
+__Notes__
 
 - Model file (`cuisine_rf_model.pkl`) is **not included** due to GitHub size constraints (~300MB).  
   You can regenerate it by running the notebook, or request an external link if needed.
 
 ---
 
-## 👤 Author
+__Author__
 
 **Ravi Sharma**  
 GitHub: [RaviSharma1901](https://github.com/RaviSharma1901)
 
----
-
-## 📬 Contact
-
-For queries or collaboration opportunities, feel free to reach out via GitHub Issues or LinkedIn!
 
