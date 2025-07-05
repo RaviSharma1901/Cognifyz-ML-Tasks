@@ -42,6 +42,19 @@ __Model Highlights__
 
 ---
 
+__Feature Importance Summary__
+
+To understand how input features influence predictions, we visualized feature importance from Random Forest models trained on specific cuisines like **North Indian**, **Chinese**, and **Fast Food**.
+
+- `Votes` and `Aggregate rating` consistently ranked as the most influential features.
+- Features like `Average Cost for two`, `City`, and `Price range` also contributed moderately.
+- Service-based features (e.g., `Online delivery`, `Table booking`) showed minimal impact.
+
+Subplots were used to compare how different cuisine models prioritize features, helping to explain model behavior and user trends more clearly.
+
+
+---
+
 __Notes__
 
 - Model file (`cuisine_rf_model.pkl`) is **not included** due to GitHub size constraints (~300MB).  
@@ -49,9 +62,20 @@ __Notes__
 
 ---
 
-__Author__
+__Future Enhancements__
+    - To improve results and make the model even better:
+        - Tune model settings using GridSearchCV
+        - Group rare cuisines to reduce label imbalance
+        - Try other models like XGBoost or LightGBM for performance
+        - Use resampling to improve accuracy for less common cuisines
+        - Add charts showing which features are most important
+        - Build a small web app (like Streamlit) so others can test it
 
-**Ravi Sharma**  
-GitHub: [RaviSharma1901](https://github.com/RaviSharma1901)
+---
+
+- __Links__
+  * **Email**: [ravisharma1901@gmail.com](mailto:ravisharma1901@gmail.com)       
+  * [LinkedIn](https://www.linkedin.com/in/ravi-sharma-ab8ba17a/)      
+  * [GitHub Profile](https://github.com/RaviSharma1901)   
 
 
