@@ -8,12 +8,12 @@ This repository contains a complete machine learning workflow for predicting cui
 
 __Repository Structure__
 
-    `
+    
     restaurant-cuisine-classification/ 
     ├── Dataset.csv # Source data with restaurant attributes 
     ├── README.md # Project description and guidance 
     ├── restaurant_cuisine_classification.ipynb
-    `
+    
 ---
 
 __Features__
