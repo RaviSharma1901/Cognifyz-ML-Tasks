@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the model
-with open("C:\\Users\\ravis\\Documents\\Python Programs\\Interview\\Cognify_ml_task\\Restaurant Rating Prediction\\decision_tree_model.pk", "rb") as f:
+with open("Restaurant Rating Prediction\decision_tree_model.pk", "rb") as f:
     model = pickle.load(f)
 
 # Scaling parameters from your training data (StandardScaler)
