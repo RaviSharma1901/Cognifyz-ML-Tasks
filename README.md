@@ -15,14 +15,12 @@ This repository contains machine learning projects completed as part of the Cogn
 
 - __Repository Structure__
   
-         ''
           Cognifyz-ML-Tasks/
           │── restaurant-rating-prediction/
           │── restaurant-recommendation-system/
           │── restaurant-cuisine-classification/
           │── Task_4/
           │── README.md
-          ''
 - __Getting Started__
         
   - Clone this repository:
