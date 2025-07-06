@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the model
-with open("updaterestaurant-rating-prediction/decision_tree_model.pkl", "rb") as f:
+with open("restaurant-rating-prediction/decision_tree_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Scaling parameters from your training data (StandardScaler)
