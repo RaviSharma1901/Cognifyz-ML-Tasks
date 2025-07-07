@@ -15,7 +15,7 @@ This repository contains machine learning projects completed as part of the Cogn
     - matplotlib, Seaborn – Data visualization
     - scikit-learn – Machine learning and evaluation
   - Modeling Techniques:
-    - Regression with RandomForestRegressor
+    - Linear Regression, Decision Tree Regressor
     - Content-based filtering with TF-IDF + cosine similarity
     - Multi-label classification with MultiOutputClassifier 
   - Feature Engineering:
