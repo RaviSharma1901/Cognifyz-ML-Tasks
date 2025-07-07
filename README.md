@@ -3,15 +3,23 @@ This repository contains machine learning projects completed as part of the Cogn
 
 - __Selected Tasks__
   - This internship allows participants to work on any 3 out of 4 tasks:
-    -  Predict Restaurant Ratings – Build a predictive model to estimate restaurant ratings based on customer feedback and features.
-    - Restaurant Recommendation System – Develop a recommendation engine using content-based filtering approaches.
-    - Cuisine Classification – Predict cuisine types using multi-label classification techniques applied to restaurant metadata and cuisine descriptions.
-    - Location Analysis – Analyze geographical data and trends affecting restaurant performance.
-
+    -  Predict Restaurant Ratings – Built a regression model to estimate restaurant ratings using user feedback, pricing, and delivery options.
+    - Restaurant Recommendation System – Developed a content-based engine using TF-IDF vectorization and cosine similarity for smart restaurant suggestions
+    - Cuisine Classification – Applied multi-label classification techniques to predict cuisine types using restaurant metadata and frequency analysis.
+    - Location Analysis – was not selected.
+      
 - __Technologies Used__
-  - Python (pandas, NumPy, matplotlib, Seaborn)
-  - Machine Learning (scikit-learn)
-  - Data Preprocessing & Feature Engineering
+  - Python - Core programming language
+  - Libraries & Tools:
+    - pandas, NumPy – Data manipulation
+    - matplotlib, Seaborn – Data visualization
+    - scikit-learn – Machine learning and evaluation
+  - Modeling Techniques:
+    - Regression with RandomForestRegressor
+    - Content-based filtering with TF-IDF + cosine similarity
+    - Multi-label classification with MultiOutputClassifier 
+  - Feature Engineering:
+    - Label binarization, MinMax scaling, importance analysis
 
 - __Repository Structure__
   
@@ -31,3 +39,11 @@ This repository contains machine learning projects completed as part of the Cogn
 
 - __Contributions & Future Enhancements__
   - Feel free to explore, fork, or contribute to this repository! Any refinements, optimizations, or new ideas for enhancing these projects are welcome.
+ 
+- __Acknowledgment__
+  - Thank you to Cognifyz Technologies for offering a well-structured internship with engaging ML tasks. This experience helped me learn how machine learning is applied to real-world projects like restaurant analytics and recommendation systems.
+
+
+
+
+  
